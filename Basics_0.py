@@ -51,6 +51,15 @@ b.remove(19)                        #usuwa dowolnie wskazaną pozycję
 
 print (a)
 print (b)
+#---------------------------------------------------------------------------------------
+
+| Metoda         | Zachodzące wzorce | Łatwość | Najlepsze do               |
+| -------------- | ----------------- | ------- | -------------------------- |
+| `.count()`     | ❌                 | ✅✅✅     | szybkie, proste liczenie   |
+| `find()`       | ✅                 | ✅✅      | ręczna kontrola pozycji    |
+| `re.findall()` | ✅                 | ✅✅      | złożone wzorce, regex      |
+| `Counter()`    | ❌                 | ✅✅      | liczenie liter, fragmentów |
+| `split()`      | ❌                 | ✅       | proste dzielenie tekstu    |
 
 #---------------------------------------------------------------------------------------
 #Obliczamy resztę z dzielenia:
